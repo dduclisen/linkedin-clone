@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="See what’s happening in your Trabahe community.">
+    <title>Notifications | Trabahe</title><link rel="stylesheet" href="style.css"><script src="app.js" defer></script>
+</head>
+<body>
+    <nav class="navbar"><div class="navbar-left"><a href="index.html" class="logo"><img src="images/logo.png" alt="Trabahe home"></a><form class="search-box" data-search-form><img src="images/search.png" alt=""><input type="search" name="search" placeholder="Search notifications" aria-label="Search notifications"></form></div><div class="navbar-center"><ul>
+        <li><a href="index.html"><img src="images/home.png" alt=""><span>Home</span></a></li><li><a href="network.html"><img src="images/network.png" alt=""><span>My Network</span></a></li><li><a href="jobs.html"><img src="images/jobs.png" alt=""><span>Jobs</span></a></li><li><a href="messaging.html"><img src="images/message.png" alt=""><span>Messaging</span></a></li><li><a href="notifications.html" class="active-link"><img src="images/notification.png" alt=""><span>Notifications</span></a></li>
+    </ul></div><div class="navbar-right"><a class="profile-trigger" href="profile.html" aria-label="View your profile"><img src="images/user-1.png" class="nav-profile-img" alt="Your profile"></a></div></nav>
+    <main class="page-container">
+        <section class="page-main">
+            <header class="page-heading"><div><p class="eyebrow">THE LATEST FROM YOUR NETWORK</p><h1>Notifications</h1><p>A few good things have been happening.</p></div><button class="button-outline" type="button" data-action="mark-read" aria-pressed="false">Mark all as read</button></header>
+            <div class="section-tabs"><a class="selected" href="notifications.html">All <span>6</span></a><a href="#jobs">My posts</a><a href="network.html">Mentions &amp; tags</a></div>
+            <p class="result-note" id="searchStatus">You’re all caught up on the important things.</p>
+            <div class="notification-list">
+                <article class="notification-card unread" data-searchable><img src="images/user-2.png" alt="Jordan Lee"><p><strong>Jordan Lee</strong> and <strong>4 others</strong> liked your post about building better dashboards.<small>2 hours ago · Your post</small></p><button class="button-outline" type="button" data-action="mark-read" aria-pressed="false">Mark as read</button></article>
+                <article class="notification-card unread" data-searchable><img src="images/user-3.png" alt="Sam Rivera"><p><strong>Sam Rivera</strong> commented: “This is such a thoughtful way to look at it.”<small>4 hours ago · Your post</small></p><a class="text-link" href="index.html">View post</a></article>
+                <article class="notification-card" data-searchable><img src="images/user-4.png" alt="Priya Shah"><p><strong>Priya Shah</strong> invited you to connect.<small>Yesterday · My network</small></p><button class="button-outline" type="button" data-action="accept" aria-pressed="false">Accept</button></article>
+                <article class="notification-card" data-searchable><img src="images/user-5.png" alt="Noah Williams"><p><strong>Noah Williams</strong> started a new position as Frontend Engineer at Shopify.<small>Yesterday · Your network</small></p><a class="text-link" href="messaging.html">Say congrats</a></article>
+                <article class="notification-card" data-searchable><img src="images/mi-logo.png" alt="Northstar"><p>A role you saved, <strong>Senior Product Designer at Northstar</strong>, was posted 2 days ago.<small>2 days ago · Job alert</small></p><a class="text-link" href="jobs.html">View job</a></article>
+                <article class="notification-card" data-searchable id="jobs"><img src="images/user-2.png" alt="Jordan Lee"><p><strong>Jordan Lee</strong> viewed your profile.<small>3 days ago · Your profile</small></p><a class="text-link" href="profile.html">View profile</a></article>
+            </div>
+        </section>
+        <aside class="page-aside"><section class="panel aside-promo"><p class="eyebrow">A GOOD REMINDER</p><h2>Progress worth celebrating.</h2><p>Your ideas are reaching people. Keep sharing what you’re learning and making.</p><a class="text-link" href="index.html">Write a post →</a></section><p class="aside-links"><a href="#">About</a><a href="#">Help center</a><a href="#">Privacy</a><span>© 2026 Trabahe</span></p></aside>
+    </main>
+</body>
+</html>

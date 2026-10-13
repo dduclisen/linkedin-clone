@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Discover people and grow your professional network on Trabahe.">
+    <title>My Network | Trabahe</title><link rel="stylesheet" href="style.css"><script src="app.js" defer></script>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-left"><a href="index.html" class="logo"><img src="images/logo.png" alt="Trabahe home"></a><form class="search-box" data-search-form><img src="images/search.png" alt=""><input type="search" name="search" placeholder="Search people" aria-label="Search people"></form></div>
+        <div class="navbar-center"><ul>
+            <li><a href="index.html"><img src="images/home.png" alt=""><span>Home</span></a></li><li><a href="network.html" class="active-link"><img src="images/network.png" alt=""><span>My Network</span></a></li><li><a href="jobs.html"><img src="images/jobs.png" alt=""><span>Jobs</span></a></li><li><a href="messaging.html"><img src="images/message.png" alt=""><span>Messaging</span></a></li><li><a href="notifications.html"><img src="images/notification.png" alt=""><span>Notifications</span></a></li>
+        </ul></div><div class="navbar-right"><a class="profile-trigger" href="profile.html" aria-label="View your profile"><img src="images/user-1.png" class="nav-profile-img" alt="Your profile"></a></div>
+    </nav>
+    <main class="page-container">
+        <section class="page-main">
+            <header class="page-heading"><div><p class="eyebrow">YOUR COMMUNITY</p><h1>Grow your network</h1><p>People you may know, based on your interests and experience.</p></div><a class="button-outline" href="profile.html">View my profile</a></header>
+            <div class="section-tabs"><a class="selected" href="network.html">People you may know <span>8</span></a><a href="#invitations">Invitations <span>3</span></a></div>
+            <p class="result-note" id="searchStatus">Showing people you may know</p>
+            <div class="people-grid">
+                <article class="person-card" data-searchable><div class="person-cover cover-purple"></div><img class="person-avatar" src="images/user-2.png" alt="Jordan Lee"><h2>Jordan Lee</h2><p>Senior Product Designer at Figma</p><small>12 mutual connections</small><button class="button-outline button-wide" type="button" data-action="connect" aria-pressed="false">Connect</button></article>
+                <article class="person-card" data-searchable><div class="person-cover cover-blue"></div><img class="person-avatar" src="images/user-3.png" alt="Sam Rivera"><h2>Sam Rivera</h2><p>Data Scientist · Building thoughtful AI</p><small>8 mutual connections</small><button class="button-outline button-wide" type="button" data-action="connect" aria-pressed="false">Connect</button></article>
+                <article class="person-card" data-searchable><div class="person-cover cover-orange"></div><img class="person-avatar" src="images/user-4.png" alt="Priya Shah"><h2>Priya Shah</h2><p>People Partner at Stripe</p><small>6 mutual connections</small><button class="button-outline button-wide" type="button" data-action="connect" aria-pressed="false">Connect</button></article>
+                <article class="person-card" data-searchable><div class="person-cover cover-green"></div><img class="person-avatar" src="images/user-5.png" alt="Noah Williams"><h2>Noah Williams</h2><p>Frontend Engineer at Shopify</p><small>4 mutual connections</small><button class="button-outline button-wide" type="button" data-action="connect" aria-pressed="false">Connect</button></article>
+                <article class="person-card" data-searchable><div class="person-cover cover-pink"></div><img class="person-avatar" src="images/user-2.png" alt="Avery Brooks"><h2>Avery Brooks</h2><p>Brand Strategist · Independent</p><small>3 mutual connections</small><button class="button-outline button-wide" type="button" data-action="connect" aria-pressed="false">Connect</button></article>
+                <article class="person-card" data-searchable><div class="person-cover cover-sky"></div><img class="person-avatar" src="images/user-4.png" alt="Taylor Kim"><h2>Taylor Kim</h2><p>Engineering Manager at Notion</p><small>2 mutual connections</small><button class="button-outline button-wide" type="button" data-action="connect" aria-pressed="false">Connect</button></article>
+            </div>
+            <section class="panel invitation-panel" id="invitations"><div><p class="eyebrow">KEEP IN TOUCH</p><h2>Invitations waiting for you</h2><p>Three people would like to connect with you.</p></div><div class="invitation-list">
+                <article class="invitation-row"><img src="images/user-2.png" alt="Maya Chen"><span><strong>Maya Chen</strong><small>Product Designer at Airbnb · 8 mutual connections</small></span><button class="button-primary" type="button" data-action="accept" aria-pressed="false">Accept</button><button class="button-outline" type="button" data-action="dismiss">Ignore</button></article>
+                <article class="invitation-row"><img src="images/user-3.png" alt="Omar Patel"><span><strong>Omar Patel</strong><small>Product Manager at Adobe · 5 mutual connections</small></span><button class="button-primary" type="button" data-action="accept" aria-pressed="false">Accept</button><button class="button-outline" type="button" data-action="dismiss">Ignore</button></article>
+                <article class="invitation-row"><img src="images/user-5.png" alt="Elena Ortiz"><span><strong>Elena Ortiz</strong><small>Research Lead at Duolingo · 3 mutual connections</small></span><button class="button-primary" type="button" data-action="accept" aria-pressed="false">Accept</button><button class="button-outline" type="button" data-action="dismiss">Ignore</button></article>
+            </div></section>
+        </section>
+        <aside class="page-aside"><section class="panel aside-promo"><p class="eyebrow">A LITTLE INSPIRATION</p><h2>Your next great idea might be one connection away.</h2><p>Meet people who share your curiosity, learn from their journeys, and make meaningful work together.</p><a class="text-link" href="jobs.html">Explore opportunities →</a></section><p class="aside-links"><a href="#">About</a><a href="#">Help center</a><a href="#">Privacy</a><span>© 2026 Trabahe</span></p></aside>
+    </main>
+</body>
+</html>

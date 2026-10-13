@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Catch up with your professional connections on Trabahe.">
+    <title>Messaging | Trabahe</title><link rel="stylesheet" href="style.css"><script src="app.js" defer></script>
+</head>
+<body>
+    <nav class="navbar"><div class="navbar-left"><a href="index.html" class="logo"><img src="images/logo.png" alt="Trabahe home"></a><form class="search-box" data-search-form><img src="images/search.png" alt=""><input type="search" name="search" placeholder="Search messages" aria-label="Search messages"></form></div><div class="navbar-center"><ul>
+        <li><a href="index.html"><img src="images/home.png" alt=""><span>Home</span></a></li><li><a href="network.html"><img src="images/network.png" alt=""><span>My Network</span></a></li><li><a href="jobs.html"><img src="images/jobs.png" alt=""><span>Jobs</span></a></li><li><a href="messaging.html" class="active-link"><img src="images/message.png" alt=""><span>Messaging</span></a></li><li><a href="notifications.html"><img src="images/notification.png" alt=""><span>Notifications</span></a></li>
+    </ul></div><div class="navbar-right"><a class="profile-trigger" href="profile.html" aria-label="View your profile"><img src="images/user-1.png" class="nav-profile-img" alt="Your profile"></a></div></nav>
+    <main class="page-container messaging-page">
+        <section class="panel messaging-shell">
+            <div class="message-inbox"><div class="inbox-heading"><div><h1>Messaging</h1><p>Stay close to good people.</p></div><button class="icon-button" type="button" aria-label="New message">＋</button></div><form class="inbox-search" data-search-form><label class="sr-only" for="message-search">Search conversations</label><input id="message-search" name="search" type="search" placeholder="Search conversations"></form><p class="eyebrow inbox-label">RECENT</p>
+                <a class="conversation-preview selected" data-searchable href="#conversation"><img src="images/user-2.png" alt=""><span><strong>Jordan Lee</strong><small>That sounds like a great fit!</small></span><time>10:42 AM</time></a>
+                <a class="conversation-preview" data-searchable href="#conversation"><img src="images/user-4.png" alt=""><span><strong>Priya Shah</strong><small>Thanks for sharing the article</small></span><time>Yesterday</time></a>
+                <a class="conversation-preview" data-searchable href="#conversation"><img src="images/user-3.png" alt=""><span><strong>Sam Rivera</strong><small>Let’s find a time next week.</small></span><time>Mon</time></a>
+                <a class="conversation-preview" data-searchable href="#conversation"><img src="images/user-5.png" alt=""><span><strong>Noah Williams</strong><small>You: Congrats on the launch!</small></span><time>Sun</time></a>
+            </div>
+            <section class="conversation" id="conversation"><header class="conversation-header"><img src="images/user-2.png" alt=""><div><h2>Jordan Lee</h2><p>Senior Product Designer at Figma · Active now</p></div><button class="icon-button" type="button" aria-label="Conversation options">···</button></header><div class="conversation-messages"><p class="day-marker">TODAY</p><p class="message-bubble incoming">Hey Alex! I saw your post about making analytics more approachable. We’re working on something similar at Figma.</p><small class="message-time">Jordan · 10:38 AM</small><p class="message-bubble outgoing">That sounds like a great fit! I’d love to hear more about the team and what you’re building.</p><small class="message-time outgoing-time">10:42 AM · Delivered</small><p class="message-bubble incoming">That sounds like a great fit! Are you free for a quick chat later this week?</p><small class="message-time">Jordan · 10:44 AM</small></div><form class="message-composer" data-message-form><label class="sr-only" for="new-message">Write a message</label><textarea id="new-message" name="message" rows="2" placeholder="Write a message…" required></textarea><div><span>Be kind. Good conversations go both ways.</span><button class="button-primary" type="submit">Send message</button></div></form></section>
+        </section>
+    </main>
+</body>
+</html>
